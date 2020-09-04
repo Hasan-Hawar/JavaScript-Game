@@ -26,3 +26,12 @@ document.getElementById('score-0').textContent = '0';
 document.getElementById('score-1').textContent = '0';
 document.getElementById('current-0').textContent = '0';
 document.getElementById('current-1').textContent = '0';
+document.querySelector('.btn-roll').addEventListener('click', ()=>{
+    // 1. random number between 1 -> 6 
+    let dice = Math.floor(Math.random() * 6) + 1;
+
+    // 2. Display the result
+    let diceImg = document.querySelector('.dice');
+    diceImg.style.display = 'block';
+    diceImg.src = 'img/dice-' + dice + '.png';
+
