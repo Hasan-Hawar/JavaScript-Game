@@ -90,6 +90,7 @@ body {
     margin: 0 auto;
     padding: 12px;
     text-align: center;
+    border-radius: 20px;
 }
 
 .player-current-label {
@@ -97,6 +98,7 @@ body {
     margin-bottom: 10px;
     font-size: 12px;
     color: #222;
+    border-radius: 20px;
 }
 
 .player-current-score {
