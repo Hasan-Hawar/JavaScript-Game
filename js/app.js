@@ -26,10 +26,6 @@ let newGame = document.querySelector('.btn-new');
 
 initialGame();
 
-// document.querySelector('#current-' + activePlayer).textContent = dice;
-// document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
-// let x = document.querySelector('#score-0').textContent;
-
 
 document.querySelector('.btn-roll').addEventListener('click', ()=>{
     
